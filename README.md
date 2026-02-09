@@ -29,19 +29,6 @@ This means you can:
 
 ---
 
-## Features
-
-* ✅ GitHub-Flavored Markdown (GFM)
-* ✅ Server-side rendering via GitHub Markdown API
-* ✅ Automatic client-side fallback
-* ✅ Relative link & image rewriting
-* ✅ GitHub blob, raw, and release URLs supported
-* ✅ Syntax highlighting (highlight.js)
-* ✅ GitHub-style CSS
-* ✅ Admonition blocks (`:::note`, `:::warning`, etc.)
-
----
-
 ## Installation
 
 1. Create a new **Google Apps Script** project
