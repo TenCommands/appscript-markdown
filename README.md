@@ -158,17 +158,15 @@ Deploy as a **Web App** and the rendered Markdown becomes the HTTP response.
 
 ## Modifying the HtmlOutput
 
-### Set Title, Size, and Sandbox Mode
+### Set Size
 
 ```js
 function customizedOutput() {
   var html = markdown.string('## Styled Output');
 
   html
-    .setTitle('My Markdown Page')
     .setWidth(900)
     .setHeight(700)
-    .setSandboxMode(HtmlService.SandboxMode.IFRAME);
 
   return html;
 }
@@ -191,15 +189,4 @@ function wrappedMarkdown() {
 
   return html;
 }
-```
-
----
-
----
-
-## Admonitions
-
-```md
-> [!NOTE]
-> This is a note
 ```
